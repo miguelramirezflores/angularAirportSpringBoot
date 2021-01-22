@@ -35,6 +35,7 @@ public class UsuarioController {
 	@GetMapping("usuario/getAutenticado")
 	public DTO getUsuarioAutenticado(boolean img , HttpServletRequest request) {
 		
+		
 		int idUsuarioAutenticado = AutenticadorJWT.getIdUsuarioDesdeJwtIncrustadoEnRequest(request);
 		Usuario usu = usurep.findById(idUsuarioAutenticado).get();
 		
