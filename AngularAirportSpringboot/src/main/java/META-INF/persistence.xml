@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	<persistence-unit name="AngularAirportSpringboot">
+		<class>com.angularAirport.model.Billete</class>
+		<class>com.angularAirport.model.Nacionalidad</class>
+		<class>com.angularAirport.model.TipoSexo</class>
+		<class>com.angularAirport.model.Usuario</class>
+		<class>com.angularAirport.model.Vuelo</class>
+	</persistence-unit>
+</persistence>
